@@ -12,7 +12,7 @@ rm(list = ls())
 #Replace the filepath below. Ensure that it points to the appropriate project folder.
 #Windows users will need to adapt their file paths to ensure that they can be read by the system. More information can be found at the following Stack Overflow article: [File path issues in R using Windows (“Hex digits in character string” error)](https://stackoverflow.com/questions/8425409/file-path-issues-in-r-using-windows-hex-digits-in-character-string-error)
 
-#TL;DR on windows you have to either transform every '/' to a double '//' or flip the substitute the forward slash '/' for a backslash '\'.
+#TL;DR on Windows you have to either transform every '/' to a double '//' or flip the substitute the forward slash '/' for a backslash '\'.
 
 setwd("/Users/YourFilePath/ProjectFolder")
 
