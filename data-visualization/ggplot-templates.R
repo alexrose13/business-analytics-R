@@ -13,5 +13,5 @@ ggplot(data, aes(x=independ.variable, y=depend.variable)) +
   
 #Noteworthy Features of the above plot:
 #theme_minimal is a good starting place that will give you a rather clean plot
-#geom_smooth and the subsequent arguments generate a line based upon the linear mondel which represents the line of best fit for our data.
+#geom_smooth and the subsequent arguments generate a line based upon the linear model which represents the line of best fit for the given data.
 
