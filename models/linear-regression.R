@@ -9,4 +9,4 @@ lm(target_variable~independent.var1 + independent.var2 + I(indepdent.var3^2),dat
 #Much of these can be reduced into a simpler form in which a period "." is used to stand in place for "all other independent variables. We see such a model expressed as:
 lm(target_variable~., data.set)
 
-#It is important to note that the above leverages the "~" in place of all independent variables in the data set as they are encoded. Some subsetting and variable transformation may be required in order for the model to behave in whatever manner is desired.
+#It is important to note that the above leverages the "~." in place of all independent variables in the data set as they are encoded. Some subsetting and variable transformation may be required in order for the model to behave in whatever manner is desired.
